@@ -1,9 +1,9 @@
 {
-	"version": "version-5c383cf6549b4c50",
-	"deploydate": "Fri Mar  5 17:42:37 2021",
+	"version": "version-c52bceabee8f40e5",
+	"deploydate": "Mon Mar 15 21:57:44 2021",
 	"addresses": {
 		"addinfo": {
-			"addr": 20582480,
+			"addr": 22141360,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -13,7 +13,7 @@
 			"typedef": "int"
 		},
 		"adjuststack": {
-			"addr": 20536880,
+			"addr": 22095776,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -23,7 +23,7 @@
 			"typedef": "int"
 		},
 		"arith": {
-			"addr": 20631856,
+			"addr": 22191632,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -33,7 +33,7 @@
 			"typedef": "int"
 		},
 		"aux_upvalue": {
-			"addr": 20526800,
+			"addr": 22085872,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -43,17 +43,17 @@
 			"typedef": "int"
 		},
 		"auxgetinfo": {
-			"addr": 20582608,
+			"addr": 22141472,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 53 56 8B 75 C BB",
+			"aob": "55 8B EC 56 8B 75 C 8A",
 			"args": "std::uintptr_t a1, int a2, int a3, int a4, int a5",
-			"mask": ".........",
+			"mask": "........",
 			"typedef": "int"
 		},
 		"auxresume": {
-			"addr": 20589696,
+			"addr": 22148400,
 			"ccv": "__thiscall",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -63,7 +63,7 @@
 			"typedef": "int"
 		},
 		"call_bintm": {
-			"addr": 20630032,
+			"addr": 22189792,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -73,7 +73,7 @@
 			"typedef": "int"
 		},
 		"call_ordertm": {
-			"addr": 20630192,
+			"addr": 22189952,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -83,7 +83,7 @@
 			"typedef": "int"
 		},
 		"calltmres": {
-			"addr": 20629696,
+			"addr": 22189456,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -93,7 +93,7 @@
 			"typedef": "int"
 		},
 		"close_state": {
-			"addr": 20580976,
+			"addr": 22139824,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -103,7 +103,7 @@
 			"typedef": "int"
 		},
 		"currentline": {
-			"addr": 20583056,
+			"addr": 22141888,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -113,7 +113,7 @@
 			"typedef": "int"
 		},
 		"err_geterrorstring": {
-			"addr": 9672288,
+			"addr": 9691984,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -123,7 +123,7 @@
 			"typedef": "int"
 		},
 		"f_call": {
-			"addr": 20526944,
+			"addr": 22086000,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -133,7 +133,7 @@
 			"typedef": "int"
 		},
 		"f_luaopen": {
-			"addr": 20581136,
+			"addr": 22139984,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -143,7 +143,7 @@
 			"typedef": "int"
 		},
 		"findfirstchild": {
-			"addr": 6800016,
+			"addr": 6812016,
 			"ccv": "__thiscall",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -153,7 +153,7 @@
 			"typedef": "int"
 		},
 		"findfirstchildofclass": {
-			"addr": 6800480,
+			"addr": 6812480,
 			"ccv": "__stdcall",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -163,17 +163,17 @@
 			"typedef": "int"
 		},
 		"findlocal": {
-			"addr": 20623168,
+			"addr": 22182896,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 51 8B 4D 8 33",
+			"aob": "55 8B EC 83 EC C 8B",
 			"args": "std::uintptr_t a1, int a2, int a3",
-			"mask": "........",
+			"mask": ".......",
 			"typedef": "int"
 		},
 		"fireclickdetector": {
-			"addr": 12920912,
+			"addr": 12962064,
 			"ccv": "__thiscall",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -183,7 +183,7 @@
 			"typedef": "int"
 		},
 		"flog_getvalue": {
-			"addr": 22642624,
+			"addr": 24235248,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -193,7 +193,7 @@
 			"typedef": "int"
 		},
 		"flog_setvalue": {
-			"addr": 22644608,
+			"addr": 24237232,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -203,7 +203,7 @@
 			"typedef": "int"
 		},
 		"getdatamodel": {
-			"addr": 16363744,
+			"addr": 16430672,
 			"ccv": "__thiscall",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -213,7 +213,7 @@
 			"typedef": "int"
 		},
 		"getdatamodel2": {
-			"addr": 16363408,
+			"addr": 16430336,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -223,17 +223,17 @@
 			"typedef": "int"
 		},
 		"getfunc": {
-			"addr": 20587568,
+			"addr": 22146240,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 81 EC 20 1 0 0 56",
+			"aob": "55 8B EC 81 EC 1C 1 0 0 56",
 			"args": "std::uintptr_t a1, int a2",
 			"mask": "..........",
 			"typedef": "int"
 		},
 		"getjobsbyname": {
-			"addr": 16927760,
+			"addr": 17000464,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -243,7 +243,7 @@
 			"typedef": "int"
 		},
 		"getnamecallmethod": {
-			"addr": 20536992,
+			"addr": 22095888,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -253,17 +253,17 @@
 			"typedef": "int"
 		},
 		"grabscriptcontext": {
-			"addr": 6183392,
-			"ccv": "__thiscall",
+			"addr": 8502496,
+			"ccv": "__fastcall",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 51 53 56 8B F1 57 8B 7D C 8B",
+			"aob": "55 8B EC 6A FF 68 EB 8F 82 1 64",
 			"args": "int a1, const char* a2, int a3",
-			"mask": ".............",
+			"mask": "...........",
 			"typedef": "int"
 		},
 		"grabglobalstateindex": {
-			"addr": 7970960,
+			"addr": 7983888,
 			"ccv": "__thiscall",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -273,7 +273,7 @@
 			"typedef": "int"
 		},
 		"growci": {
-			"addr": 20540080,
+			"addr": 22098912,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -283,7 +283,7 @@
 			"typedef": "int"
 		},
 		"hashnum": {
-			"addr": 20624752,
+			"addr": 22184512,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -293,8 +293,8 @@
 			"typedef": "int"
 		},
 		"index2adr": {
-			"addr": 20527024,
-			"ccv": "__cdecl",
+			"addr": 22086080,
+			"ccv": "__stdcall",
 			"retcheck": false,
 			"isapartoflua": true,
 			"aob": "55 8B EC 8B 55 C 81",
@@ -303,7 +303,7 @@
 			"typedef": "int"
 		},
 		"luaopen_base": {
-			"addr": 20588608,
+			"addr": 22147280,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -313,7 +313,7 @@
 			"typedef": "int"
 		},
 		"luaopen_table": {
-			"addr": 20590416,
+			"addr": 22149136,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -323,17 +323,17 @@
 			"typedef": "int"
 		},
 		"luaopen_bit32": {
-			"addr": 20608896,
+			"addr": 22167520,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 68 F8 CB 34 2 68",
+			"aob": "55 8B EC 68 10 87 E5 1 68",
 			"args": "int a1",
 			"mask": ".........",
 			"typedef": "int"
 		},
 		"lua_call": {
-			"addr": 20527312,
+			"addr": 22086384,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -343,7 +343,7 @@
 			"typedef": "int"
 		},
 		"lua_checkstack": {
-			"addr": 20532240,
+			"addr": 22091264,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -353,7 +353,7 @@
 			"typedef": "int"
 		},
 		"lua_close": {
-			"addr": 20581504,
+			"addr": 22140352,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -363,7 +363,7 @@
 			"typedef": "int"
 		},
 		"lua_concat": {
-			"addr": 20527584,
+			"addr": 22086656,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -373,7 +373,7 @@
 			"typedef": "int"
 		},
 		"lua_createtable": {
-			"addr": 20527760,
+			"addr": 22086832,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -383,7 +383,7 @@
 			"typedef": "int"
 		},
 		"lua_error": {
-			"addr": 20528064,
+			"addr": 22087136,
 			"ccv": "__thiscall",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -393,7 +393,7 @@
 			"typedef": "int"
 		},
 		"lua_freeobj": {
-			"addr": 20617280,
+			"addr": 22176848,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -403,7 +403,7 @@
 			"typedef": "int"
 		},
 		"lua_gc": {
-			"addr": 20528080,
+			"addr": 22087152,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -413,17 +413,17 @@
 			"typedef": "int"
 		},
 		"lua_getargument": {
-			"addr": 20584288,
+			"addr": 22143056,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
-			"aob": "55 8B EC 8B 45 C 53",
+			"aob": "55 8B EC 53 56 8B 75 8 B8",
 			"args": "std::uintptr_t a1, int a2, int a3",
-			"mask": ".......",
+			"mask": ".........",
 			"typedef": "int"
 		},
 		"lua_getfenv": {
-			"addr": 20528368,
+			"addr": 22087440,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -433,7 +433,7 @@
 			"typedef": "int"
 		},
 		"lua_getfield": {
-			"addr": 20528528,
+			"addr": 22087600,
 			"ccv": "__stdcall",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -443,47 +443,37 @@
 			"typedef": "int"
 		},
 		"lua_getinfo": {
-			"addr": 20584480,
+			"addr": 22143264,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
-			"aob": "55 8B EC 51 8B 55 10 53 8B 5D C 56",
+			"aob": "55 8B EC 53 56 8B 75 C 33",
 			"args": "std::uintptr_t a1, int a2, int a3",
-			"mask": "............",
+			"mask": ".........",
 			"typedef": "int"
 		},
 		"lua_getlocal": {
-			"addr": 20584688,
+			"addr": 22143488,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
-			"aob": "55 8B EC 8B 45 C 53",
+			"aob": "55 8B EC 53 8B 5D 8 B8",
 			"args": "std::uintptr_t a1, int a2, int a3",
-			"mask": ".......",
+			"mask": "........",
 			"typedef": "int"
 		},
 		"lua_getmetatable": {
-			"addr": 20528704,
-			"ccv": "__stdcall",
+			"addr": 22087776,
+			"ccv": "__fastcall",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 8B 4D C 56",
+			"aob": "55 8B EC 56 8B F1 57 85 D2 7E 18 8B 46 14 C1 E2 4 83",
 			"args": "std::uintptr_t a1, int a2",
-			"mask": ".......",
-			"typedef": "int"
-		},
-		"lua_getstack": {
-			"addr": 20584880,
-			"ccv": "__cdecl",
-			"retcheck": false,
-			"isapartoflua": true,
-			"aob": "55 8B EC 8B 4D C B8",
-			"args": "std::uintptr_t a1, int a2, int a3",
-			"mask": ".......",
+			"mask": "..................",
 			"typedef": "int"
 		},
 		"lua_gettable": {
-			"addr": 20528896,
+			"addr": 22087952,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -493,7 +483,7 @@
 			"typedef": "int"
 		},
 		"lua_gettop": {
-			"addr": 20529024,
+			"addr": 22088064,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -503,7 +493,7 @@
 			"typedef": "int"
 		},
 		"lua_getupvalue": {
-			"addr": 20529056,
+			"addr": 22088096,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -513,7 +503,7 @@
 			"typedef": "int"
 		},
 		"lua_insert": {
-			"addr": 20529200,
+			"addr": 22088240,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -523,7 +513,7 @@
 			"typedef": "int"
 		},
 		"lua_iscfunction": {
-			"addr": 20529424,
+			"addr": 22088448,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -533,7 +523,7 @@
 			"typedef": "int"
 		},
 		"lua_isnumber": {
-			"addr": 20529504,
+			"addr": 22088528,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -543,7 +533,7 @@
 			"typedef": "int"
 		},
 		"lua_isstring": {
-			"addr": 20529600,
+			"addr": 22088624,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -553,7 +543,7 @@
 			"typedef": "int"
 		},
 		"lua_isuserdata": {
-			"addr": 20529344,
+			"addr": 22088368,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -563,7 +553,7 @@
 			"typedef": "int"
 		},
 		"lua_lessthan": {
-			"addr": 20529680,
+			"addr": 22088704,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -573,7 +563,7 @@
 			"typedef": "int"
 		},
 		"lua_newstate": {
-			"addr": 20581552,
+			"addr": 22140400,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -583,7 +573,7 @@
 			"typedef": "int"
 		},
 		"lua_newthread": {
-			"addr": 20529856,
+			"addr": 22088880,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -593,7 +583,7 @@
 			"typedef": "int"
 		},
 		"lua_newuserdata": {
-			"addr": 20530000,
+			"addr": 22089024,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -603,7 +593,7 @@
 			"typedef": "int"
 		},
 		"lua_next": {
-			"addr": 20530128,
+			"addr": 22089152,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -613,7 +603,7 @@
 			"typedef": "int"
 		},
 		"lua_objlen": {
-			"addr": 20530272,
+			"addr": 22089296,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -623,7 +613,7 @@
 			"typedef": "int"
 		},
 		"lua_pcall": {
-			"addr": 20530496,
+			"addr": 22089520,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -633,7 +623,7 @@
 			"typedef": "int"
 		},
 		"lua_pushboolean": {
-			"addr": 20530688,
+			"addr": 22089712,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -643,17 +633,17 @@
 			"typedef": "int"
 		},
 		"lua_pushcclosure": {
-			"addr": 20530768,
-			"ccv": "__cdecl",
+			"addr": 22089792,
+			"ccv": "__fastcall",
 			"retcheck": true,
 			"isapartoflua": true,
-			"aob": "55 8B EC 56 8B 75 8 8B",
+			"aob": "Unable to generate aob.",
 			"args": "std::uintptr_t a1, int a2, int a3, int a4, int a5",
-			"mask": "........",
+			"mask": "....",
 			"typedef": "int"
 		},
 		"lua_pushfstring": {
-			"addr": 20530992,
+			"addr": 22090016,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -663,7 +653,7 @@
 			"typedef": "int"
 		},
 		"lua_pushinteger": {
-			"addr": 20531104,
+			"addr": 22090128,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -673,7 +663,7 @@
 			"typedef": "int"
 		},
 		"lua_pushlightuserdata": {
-			"addr": 20531200,
+			"addr": 22090224,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -683,7 +673,7 @@
 			"typedef": "int"
 		},
 		"lua_pushlstring": {
-			"addr": 20531280,
+			"addr": 22090304,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -693,7 +683,7 @@
 			"typedef": "int"
 		},
 		"lua_pushnil": {
-			"addr": 20531408,
+			"addr": 22090432,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -703,7 +693,7 @@
 			"typedef": "int"
 		},
 		"lua_pushnumber": {
-			"addr": 20531488,
+			"addr": 22090512,
 			"ccv": "__thiscall",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -713,8 +703,8 @@
 			"typedef": "int"
 		},
 		"lua_pushstring": {
-			"addr": 20531584,
-			"ccv": "__stdcall",
+			"addr": 22090608,
+			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
 			"aob": "55 8B EC 8B 45 C 85",
@@ -723,7 +713,7 @@
 			"typedef": "int"
 		},
 		"lua_pushthread": {
-			"addr": 20531808,
+			"addr": 22090832,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -733,7 +723,7 @@
 			"typedef": "int"
 		},
 		"lua_pushvalue": {
-			"addr": 20532016,
+			"addr": 22091040,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -743,7 +733,7 @@
 			"typedef": "int"
 		},
 		"lua_pushvfstring": {
-			"addr": 20532128,
+			"addr": 22091152,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -753,7 +743,7 @@
 			"typedef": "int"
 		},
 		"lua_rawequal": {
-			"addr": 20532352,
+			"addr": 22091376,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -763,7 +753,7 @@
 			"typedef": "int"
 		},
 		"lua_rawget": {
-			"addr": 20532480,
+			"addr": 22091504,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -773,7 +763,7 @@
 			"typedef": "int"
 		},
 		"lua_rawgeti": {
-			"addr": 20532784,
+			"addr": 22091808,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -783,7 +773,7 @@
 			"typedef": "int"
 		},
 		"lua_rawset": {
-			"addr": 20532912,
+			"addr": 22091936,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -793,7 +783,7 @@
 			"typedef": "int"
 		},
 		"lua_rawseti": {
-			"addr": 20533120,
+			"addr": 22092144,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -803,7 +793,7 @@
 			"typedef": "int"
 		},
 		"lua_rawvalue": {
-			"addr": 20527232,
+			"addr": 22086304,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -813,7 +803,7 @@
 			"typedef": "int"
 		},
 		"lua_remove": {
-			"addr": 20533328,
+			"addr": 22092352,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -823,7 +813,7 @@
 			"typedef": "int"
 		},
 		"lua_replace": {
-			"addr": 20533472,
+			"addr": 22092496,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -833,7 +823,7 @@
 			"typedef": "int"
 		},
 		"lua_resume": {
-			"addr": 20541536,
+			"addr": 22100400,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -843,7 +833,7 @@
 			"typedef": "int"
 		},
 		"lua_setfenv": {
-			"addr": 20533744,
+			"addr": 22092752,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -853,8 +843,8 @@
 			"typedef": "int"
 		},
 		"lua_setfield": {
-			"addr": 20533968,
-			"ccv": "__stdcall",
+			"addr": 22092960,
+			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
 			"aob": "55 8B EC 8B 4D C 83",
@@ -863,17 +853,17 @@
 			"typedef": "int"
 		},
 		"lua_setlocal": {
-			"addr": 20585024,
+			"addr": 22143712,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
-			"aob": "55 8B EC 8B 45 C 53",
+			"aob": "55 8B EC 53 56 8B 75 8 B8",
 			"args": "std::uintptr_t a1, int a2, int a3",
-			"mask": ".......",
+			"mask": ".........",
 			"typedef": "int"
 		},
 		"lua_setmetatable": {
-			"addr": 20534144,
+			"addr": 22093136,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -883,7 +873,7 @@
 			"typedef": "int"
 		},
 		"lua_setreadonly": {
-			"addr": 20534416,
+			"addr": 22093408,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -893,7 +883,7 @@
 			"typedef": "int"
 		},
 		"lua_setsafeenv": {
-			"addr": 20534528,
+			"addr": 22093520,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -903,7 +893,7 @@
 			"typedef": "int"
 		},
 		"lua_settable": {
-			"addr": 20534640,
+			"addr": 22093632,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -913,17 +903,17 @@
 			"typedef": "int"
 		},
 		"lua_settop": {
-			"addr": 20534768,
-			"ccv": "__fastcall",
+			"addr": 22093760,
+			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
-			"aob": "55 8B EC 56 57 8B FA 8B F1 C1 E7 4 85",
+			"aob": "55 8B EC 8B 45 C 8B",
 			"args": "std::uintptr_t a1, int a2",
-			"mask": ".............",
+			"mask": ".......",
 			"typedef": "int"
 		},
 		"lua_setupvalue": {
-			"addr": 20534896,
+			"addr": 22093888,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -933,7 +923,7 @@
 			"typedef": "int"
 		},
 		"lua_toboolean": {
-			"addr": 20535088,
+			"addr": 22094064,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -943,7 +933,7 @@
 			"typedef": "int"
 		},
 		"lua_tointeger": {
-			"addr": 20535184,
+			"addr": 22094144,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -953,17 +943,17 @@
 			"typedef": "int"
 		},
 		"lua_tolstring": {
-			"addr": 20535312,
+			"addr": 22094272,
 			"ccv": "__fastcall",
 			"retcheck": true,
 			"isapartoflua": true,
-			"aob": "55 8B EC 51 53 56 8B DA 57 8B F9 85 DB 7E 1A 8B 47 1C 8B F3 C1 E6 4 83",
+			"aob": "55 8B EC 51 53 56 8B DA 57 8B F9 85 DB 7E 1A 8B 47 14 8B F3 C1 E6 4 83",
 			"args": "std::uintptr_t a1, int a2, int a3",
 			"mask": "........................",
 			"typedef": "int"
 		},
 		"lua_tonumber": {
-			"addr": 20535616,
+			"addr": 22094576,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -973,7 +963,7 @@
 			"typedef": "int"
 		},
 		"lua_topointer": {
-			"addr": 20535760,
+			"addr": 22094704,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -983,7 +973,7 @@
 			"typedef": "int"
 		},
 		"lua_tostring": {
-			"addr": 20535952,
+			"addr": 22094896,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -993,7 +983,7 @@
 			"typedef": "int"
 		},
 		"lua_tothread": {
-			"addr": 20536112,
+			"addr": 22095024,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1003,7 +993,7 @@
 			"typedef": "int"
 		},
 		"lua_tounsignedx": {
-			"addr": 20536192,
+			"addr": 22095088,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1013,7 +1003,7 @@
 			"typedef": "int"
 		},
 		"lua_touserdata": {
-			"addr": 20536336,
+			"addr": 22095232,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1023,7 +1013,7 @@
 			"typedef": "int"
 		},
 		"lua_type": {
-			"addr": 20536576,
+			"addr": 22095472,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1033,7 +1023,7 @@
 			"typedef": "int"
 		},
 		"lua_typename": {
-			"addr": 20536640,
+			"addr": 22095536,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1043,7 +1033,7 @@
 			"typedef": "int"
 		},
 		"lua_xmove": {
-			"addr": 20536752,
+			"addr": 22095648,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -1053,7 +1043,7 @@
 			"typedef": "int"
 		},
 		"lua_yeild": {
-			"addr": 20542144,
+			"addr": 22101008,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -1063,7 +1053,7 @@
 			"typedef": "int"
 		},
 		"luaa_pushobject": {
-			"addr": 20527200,
+			"addr": 22086272,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1073,7 +1063,7 @@
 			"typedef": "int"
 		},
 		"luab_auxwrap": {
-			"addr": 20589824,
+			"addr": 22148624,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1083,7 +1073,7 @@
 			"typedef": "int"
 		},
 		"luac_barrierback": {
-			"addr": 20617408,
+			"addr": 22176976,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1093,7 +1083,7 @@
 			"typedef": "int"
 		},
 		"luac_barrierf": {
-			"addr": 20617440,
+			"addr": 22177008,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1103,7 +1093,7 @@
 			"typedef": "int"
 		},
 		"luac_fullgc": {
-			"addr": 20618016,
+			"addr": 22177584,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1113,7 +1103,7 @@
 			"typedef": "int"
 		},
 		"luac_link": {
-			"addr": 20618240,
+			"addr": 22177808,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1123,7 +1113,7 @@
 			"typedef": "int"
 		},
 		"luac_linkupval": {
-			"addr": 20618288,
+			"addr": 22177856,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1133,7 +1123,7 @@
 			"typedef": "int"
 		},
 		"luac_step": {
-			"addr": 20618416,
+			"addr": 22177984,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1143,7 +1133,7 @@
 			"typedef": "int"
 		},
 		"luad_call": {
-			"addr": 20539920,
+			"addr": 22098752,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1153,7 +1143,7 @@
 			"typedef": "int"
 		},
 		"luad_growstack": {
-			"addr": 20540176,
+			"addr": 22099008,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1163,7 +1153,7 @@
 			"typedef": "int"
 		},
 		"luad_pcall": {
-			"addr": 20540224,
+			"addr": 22099056,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1173,7 +1163,7 @@
 			"typedef": "int"
 		},
 		"luad_poscall": {
-			"addr": 20579632,
+			"addr": 22138480,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1183,7 +1173,7 @@
 			"typedef": "int"
 		},
 		"luad_precall": {
-			"addr": 20579760,
+			"addr": 22138624,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1193,17 +1183,17 @@
 			"typedef": "int"
 		},
 		"luad_rawrunprotected": {
-			"addr": 20540528,
+			"addr": 22099360,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 6A FF 68 60 0 E0 1 64",
+			"aob": "55 8B EC 6A FF 68 20 F5 8E 1 64",
 			"args": "std::uintptr_t a1, int a2, int a3",
 			"mask": "...........",
 			"typedef": "int"
 		},
 		"luad_reallocci": {
-			"addr": 20540848,
+			"addr": 22099680,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1213,7 +1203,7 @@
 			"typedef": "int"
 		},
 		"luad_reallocstack": {
-			"addr": 20540976,
+			"addr": 22099808,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1223,7 +1213,7 @@
 			"typedef": "int"
 		},
 		"luad_seterrorObj": {
-			"addr": 20541248,
+			"addr": 22100080,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1233,7 +1223,7 @@
 			"typedef": "int"
 		},
 		"luad_throw": {
-			"addr": 20541360,
+			"addr": 22100224,
 			"ccv": "__fastcall",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1243,7 +1233,7 @@
 			"typedef": "int"
 		},
 		"luae_freethread": {
-			"addr": 20581264,
+			"addr": 22140112,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1253,7 +1243,7 @@
 			"typedef": "int"
 		},
 		"luae_newthread": {
-			"addr": 20581376,
+			"addr": 22140224,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1263,7 +1253,7 @@
 			"typedef": "int"
 		},
 		"luaf_close": {
-			"addr": 20622560,
+			"addr": 22182304,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1273,7 +1263,7 @@
 			"typedef": "int"
 		},
 		"luaf_findupval": {
-			"addr": 20622704,
+			"addr": 22182448,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1283,17 +1273,17 @@
 			"typedef": "int"
 		},
 		"luaf_freeproto": {
-			"addr": 20623120,
+			"addr": 22182656,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 8B 55 C 56",
+			"aob": "55 8B EC 56 8B 75 C 57",
 			"args": "std::uintptr_t a1, int a2",
-			"mask": ".......",
+			"mask": "........",
 			"typedef": "int"
 		},
 		"luaf_newcclosure": {
-			"addr": 20623264,
+			"addr": 22183008,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1303,7 +1293,7 @@
 			"typedef": "int"
 		},
 		"luaf_newlclosure": {
-			"addr": 20623360,
+			"addr": 22183088,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1313,7 +1303,7 @@
 			"typedef": "int"
 		},
 		"luaf_newproto": {
-			"addr": 20623472,
+			"addr": 22183200,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1323,7 +1313,7 @@
 			"typedef": "int"
 		},
 		"luag_aritherror": {
-			"addr": 20583200,
+			"addr": 22142048,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1333,17 +1323,17 @@
 			"typedef": "int"
 		},
 		"luag_breakpoint": {
-			"addr": 20583312,
+			"addr": 22142160,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 51 53 56 57 8B 7D C 8B",
+			"aob": "55 8B EC 56 8B 75 C 57",
 			"args": "std::uintptr_t a1, int a2, int a3, int a4",
-			"mask": "...........",
+			"mask": "........",
 			"typedef": "int"
 		},
 		"luag_concaterror": {
-			"addr": 20583712,
+			"addr": 22142464,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1353,7 +1343,7 @@
 			"typedef": "int"
 		},
 		"luag_forerrorl": {
-			"addr": 20583776,
+			"addr": 22142528,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1363,7 +1353,7 @@
 			"typedef": "int"
 		},
 		"luag_getline": {
-			"addr": 20583824,
+			"addr": 22142576,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1373,7 +1363,7 @@
 			"typedef": "int"
 		},
 		"luag_indexerror": {
-			"addr": 20583888,
+			"addr": 22142640,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1383,7 +1373,7 @@
 			"typedef": "int"
 		},
 		"luag_ordererror": {
-			"addr": 20584048,
+			"addr": 22142816,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1393,7 +1383,7 @@
 			"typedef": "int"
 		},
 		"luag_runerror": {
-			"addr": 20584192,
+			"addr": 22142960,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1403,17 +1393,17 @@
 			"typedef": "int"
 		},
 		"luag_typeerror": {
-			"addr": 20633424,
+			"addr": 22193216,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 8B 55 8 56",
+			"aob": "55 8B EC 8B 4D C 56",
 			"args": "std::uintptr_t a1, int a2, int a3",
 			"mask": ".......",
 			"typedef": "int"
 		},
 		"luah_clone": {
-			"addr": 20624992,
+			"addr": 22184752,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1423,17 +1413,17 @@
 			"typedef": "int"
 		},
 		"luah_free": {
-			"addr": 20623632,
+			"addr": 22183376,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 8B 55 8 8B",
+			"aob": "55 8B EC 8B 55 C 56",
 			"args": "std::uintptr_t a1, int a2",
 			"mask": ".......",
 			"typedef": "int"
 		},
 		"luah_get": {
-			"addr": 20625376,
+			"addr": 22185120,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1443,7 +1433,7 @@
 			"typedef": "int"
 		},
 		"luah_getn": {
-			"addr": 20625552,
+			"addr": 22185296,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1453,7 +1443,7 @@
 			"typedef": "int"
 		},
 		"luah_getnum": {
-			"addr": 20625680,
+			"addr": 22185424,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1463,7 +1453,7 @@
 			"typedef": "int"
 		},
 		"luah_getstr": {
-			"addr": 20625904,
+			"addr": 22185648,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1473,7 +1463,7 @@
 			"typedef": "int"
 		},
 		"luah_new": {
-			"addr": 20626016,
+			"addr": 22185760,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1483,7 +1473,7 @@
 			"typedef": "int"
 		},
 		"luah_next": {
-			"addr": 20626128,
+			"addr": 22185872,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1493,7 +1483,7 @@
 			"typedef": "int"
 		},
 		"luah_resizearray": {
-			"addr": 20626608,
+			"addr": 22186336,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1503,7 +1493,7 @@
 			"typedef": "int"
 		},
 		"luah_set": {
-			"addr": 20626688,
+			"addr": 22186416,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1513,7 +1503,7 @@
 			"typedef": "int"
 		},
 		"luah_setnum": {
-			"addr": 20626976,
+			"addr": 22186704,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1523,7 +1513,7 @@
 			"typedef": "int"
 		},
 		"luah_setstr": {
-			"addr": 20627088,
+			"addr": 22186816,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1533,7 +1523,7 @@
 			"typedef": "int"
 		},
 		"lual_addlstring": {
-			"addr": 20537120,
+			"addr": 22096016,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1543,7 +1533,7 @@
 			"typedef": "int"
 		},
 		"lual_addvalue": {
-			"addr": 20537232,
+			"addr": 22096128,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1553,7 +1543,7 @@
 			"typedef": "int"
 		},
 		"lual_argerror": {
-			"addr": 20537376,
+			"addr": 22096256,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1563,7 +1553,7 @@
 			"typedef": "int"
 		},
 		"lual_buffinit": {
-			"addr": 20537456,
+			"addr": 22096336,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1573,7 +1563,7 @@
 			"typedef": "int"
 		},
 		"lual_checkany": {
-			"addr": 20537632,
+			"addr": 22096512,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1583,7 +1573,7 @@
 			"typedef": "int"
 		},
 		"lual_checkinteger": {
-			"addr": 20537696,
+			"addr": 22096576,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1593,7 +1583,7 @@
 			"typedef": "int"
 		},
 		"lual_checklstring": {
-			"addr": 20537744,
+			"addr": 22096624,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1603,7 +1593,7 @@
 			"typedef": "int"
 		},
 		"lual_checknumber": {
-			"addr": 20537792,
+			"addr": 22096672,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1613,7 +1603,7 @@
 			"typedef": "int"
 		},
 		"lual_checkstack": {
-			"addr": 20537840,
+			"addr": 22096720,
 			"ccv": "__thiscall",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1623,7 +1613,7 @@
 			"typedef": "int"
 		},
 		"lual_checktype": {
-			"addr": 20537904,
+			"addr": 22096784,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1633,7 +1623,7 @@
 			"typedef": "int"
 		},
 		"lual_checkunsigned": {
-			"addr": 20537952,
+			"addr": 22096832,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1643,7 +1633,7 @@
 			"typedef": "int"
 		},
 		"lual_error": {
-			"addr": 20538000,
+			"addr": 22096880,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1653,7 +1643,7 @@
 			"typedef": "int"
 		},
 		"lual_findtable": {
-			"addr": 20538048,
+			"addr": 22096928,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1663,17 +1653,17 @@
 			"typedef": "int"
 		},
 		"lual_getmetafield": {
-			"addr": 20538288,
+			"addr": 22097152,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 56 FF 75 C 8B",
+			"aob": "55 8B EC 8B 55 C 56",
 			"args": "std::uintptr_t a1, int a2, int a3",
-			"mask": "........",
+			"mask": ".......",
 			"typedef": "int"
 		},
 		"lual_newmetatable": {
-			"addr": 20538384,
+			"addr": 22097248,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1683,7 +1673,7 @@
 			"typedef": "int"
 		},
 		"lual_optinteger": {
-			"addr": 20538480,
+			"addr": 22097344,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1693,7 +1683,7 @@
 			"typedef": "int"
 		},
 		"lual_optlstring": {
-			"addr": 20538560,
+			"addr": 22097424,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1703,7 +1693,7 @@
 			"typedef": "int"
 		},
 		"lual_prepbuffer": {
-			"addr": 20538784,
+			"addr": 22097648,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1713,7 +1703,7 @@
 			"typedef": "int"
 		},
 		"lual_pushresult": {
-			"addr": 20538848,
+			"addr": 22097712,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1723,7 +1713,7 @@
 			"typedef": "int"
 		},
 		"lual_ref": {
-			"addr": 20538912,
+			"addr": 22097776,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1733,7 +1723,7 @@
 			"typedef": "int"
 		},
 		"lual_register": {
-			"addr": 20539104,
+			"addr": 22097952,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1743,7 +1733,7 @@
 			"typedef": "int"
 		},
 		"lual_typeerror": {
-			"addr": 20539344,
+			"addr": 22098192,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1753,7 +1743,7 @@
 			"typedef": "int"
 		},
 		"lual_unref": {
-			"addr": 20539504,
+			"addr": 22098352,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1763,17 +1753,17 @@
 			"typedef": "int"
 		},
 		"lual_where": {
-			"addr": 20539600,
+			"addr": 22098448,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 81 EC 20 1 0 0 8D",
+			"aob": "55 8B EC 81 EC 1C 1 0 0 8D",
 			"args": "std::uintptr_t a1, int a2",
 			"mask": "..........",
 			"typedef": "int"
 		},
 		"luam_realloc": {
-			"addr": 20634496,
+			"addr": 22194288,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1783,7 +1773,7 @@
 			"typedef": "int"
 		},
 		"luam_realloc_": {
-			"addr": 20634176,
+			"addr": 22193968,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1793,17 +1783,17 @@
 			"typedef": "int"
 		},
 		"luam_toobig": {
-			"addr": 20634768,
+			"addr": 22194560,
 			"ccv": "__thiscall",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 51 C7 45 FC 82 1C 69 2 8B",
+			"aob": "55 8B EC 51 C7 45 FC 4 D7",
 			"args": "int a1",
-			"mask": "............",
+			"mask": ".........",
 			"typedef": "int"
 		},
 		"luao_chunkid": {
-			"addr": 20542896,
+			"addr": 22101760,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1813,7 +1803,7 @@
 			"typedef": "int"
 		},
 		"luao_pushfstring": {
-			"addr": 20543280,
+			"addr": 22102144,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1823,7 +1813,7 @@
 			"typedef": "int"
 		},
 		"luao_pushvfstring": {
-			"addr": 20543440,
+			"addr": 22102304,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1833,7 +1823,7 @@
 			"typedef": "int"
 		},
 		"luao_rawequalKey": {
-			"addr": 20543600,
+			"addr": 22102464,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1843,7 +1833,7 @@
 			"typedef": "int"
 		},
 		"luao_rawequalobj": {
-			"addr": 20543728,
+			"addr": 22102592,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1853,7 +1843,7 @@
 			"typedef": "int"
 		},
 		"luao_str2d": {
-			"addr": 20543856,
+			"addr": 22102720,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1863,8 +1853,8 @@
 			"typedef": "int"
 		},
 		"luas_newlstr": {
-			"addr": 20623744,
-			"ccv": "__cdecl",
+			"addr": 22183488,
+			"ccv": "__stdcall",
 			"retcheck": false,
 			"isapartoflua": true,
 			"aob": "55 8B EC 8B 45 10 8B D0 53 56 8B F0 8B D8 C1 EE 5 46",
@@ -1873,7 +1863,7 @@
 			"typedef": "int"
 		},
 		"luas_newudata": {
-			"addr": 20624000,
+			"addr": 22183760,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1883,7 +1873,7 @@
 			"typedef": "int"
 		},
 		"luas_resize": {
-			"addr": 20624080,
+			"addr": 22183840,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1893,7 +1883,7 @@
 			"typedef": "int"
 		},
 		"luat_gettm": {
-			"addr": 20633376,
+			"addr": 22193168,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1903,7 +1893,7 @@
 			"typedef": "int"
 		},
 		"luat_objtypename": {
-			"addr": 20633712,
+			"addr": 22193504,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1913,17 +1903,17 @@
 			"typedef": "int"
 		},
 		"luau_backtrace": {
-			"addr": 20575040,
+			"addr": 22133952,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 6A FF 68 89 0 E0",
+			"aob": "55 8B EC 6A FF 68 49 F5 8E 1 64",
 			"args": "std::uintptr_t a1, int a2, int a3",
-			"mask": ".........",
+			"mask": "...........",
 			"typedef": "int"
 		},
 		"luau_betavm": {
-			"addr": 20559664,
+			"addr": 22118512,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1933,17 +1923,17 @@
 			"typedef": "int"
 		},
 		"luau_callhook": {
-			"addr": 20576496,
+			"addr": 22135408,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
-			"aob": "55 8B EC 81 EC 20 1 0 0 53",
+			"aob": "55 8B EC 81 EC 1C 1 0 0 53",
 			"args": "std::uintptr_t a1, int a2, int a3",
 			"mask": "..........",
 			"typedef": "int"
 		},
 		"luau_calltm": {
-			"addr": 20576208,
+			"addr": 22135120,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1953,27 +1943,27 @@
 			"typedef": "int"
 		},
 		"luau_deserialize": {
-			"addr": 20576896,
+			"addr": 22135776,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 6A FF 68 B0 0 E0 1 64",
+			"aob": "55 8B EC 6A FF 68 70 F5 8E 1 64",
 			"args": "std::uintptr_t a1, const char* a2, const char* a3, int a4",
 			"mask": "...........",
 			"typedef": "int"
 		},
 		"luau_execute": {
-			"addr": 20729152,
+			"addr": 22289664,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 51 80 3D F4 82 AD 2 0 74",
+			"aob": "55 8B EC 51 80 3D 2C 21 5E 2 0 74",
 			"args": "std::uintptr_t a1, int a2, int a3, int a4, int a5, int a6",
 			"mask": "............",
 			"typedef": "int"
 		},
 		"luau_loopforg": {
-			"addr": 20579536,
+			"addr": 22138368,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -1983,17 +1973,17 @@
 			"typedef": "int"
 		},
 		"luau_prepareforn": {
-			"addr": 20580160,
+			"addr": 22139008,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 56 8B 75 14 83 7E C 3 74",
+			"aob": "55 8B EC 56 8B 75 14 83 7E C 2 74",
 			"args": "std::uintptr_t a1, int a2, int a3, int a4",
 			"mask": "............",
 			"typedef": "int"
 		},
 		"luau_resolveimport": {
-			"addr": 20580320,
+			"addr": 22139168,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2003,7 +1993,7 @@
 			"typedef": "int"
 		},
 		"luau_tryfunctm": {
-			"addr": 20580736,
+			"addr": 22139584,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2013,7 +2003,7 @@
 			"typedef": "int"
 		},
 		"luav_concat": {
-			"addr": 20630320,
+			"addr": 22190096,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2023,7 +2013,7 @@
 			"typedef": "int"
 		},
 		"luav_doarith": {
-			"addr": 20631168,
+			"addr": 22190928,
 			"ccv": "__thiscall",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2033,7 +2023,7 @@
 			"typedef": "int"
 		},
 		"luav_dolen": {
-			"addr": 20631680,
+			"addr": 22191440,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2043,27 +2033,27 @@
 			"typedef": "int"
 		},
 		"luav_execute": {
-			"addr": 20544128,
+			"addr": 22102992,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 83 E4 F0 81 EC 98 0 0 0 56",
+			"aob": "55 8B EC 83 E4 F0 81 EC A8 0 0 0 56",
 			"args": "int a1",
 			"mask": ".............",
 			"typedef": "int"
 		},
 		"luav_gettable": {
-			"addr": 20632176,
+			"addr": 22191968,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 51 53 56 8B 75 C 33",
+			"aob": "55 8B EC 51 53 56 8B 75 C 57",
 			"args": "std::uintptr_t a1, int a2, int a3, int a4, int a5",
 			"mask": "..........",
 			"typedef": "int"
 		},
 		"luav_gettable_opt": {
-			"addr": 20632144,
+			"addr": 22191936,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2073,7 +2063,7 @@
 			"typedef": "int"
 		},
 		"luav_lessequal": {
-			"addr": 20632448,
+			"addr": 22192240,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2083,7 +2073,7 @@
 			"typedef": "int"
 		},
 		"luav_lessthan": {
-			"addr": 20632608,
+			"addr": 22192400,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2093,7 +2083,7 @@
 			"typedef": "int"
 		},
 		"luav_settable": {
-			"addr": 20632768,
+			"addr": 22192560,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2103,7 +2093,7 @@
 			"typedef": "int"
 		},
 		"luav_tonumber": {
-			"addr": 20633168,
+			"addr": 22192960,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2113,7 +2103,7 @@
 			"typedef": "int"
 		},
 		"luav_tostring": {
-			"addr": 20633264,
+			"addr": 22193056,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2123,27 +2113,27 @@
 			"typedef": "int"
 		},
 		"luavm_compile": {
-			"addr": 7175536,
-			"ccv": "__cdecl",
+			"addr": 8504144,
+			"ccv": "__stdcall",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 56 8B 75 8 8B",
+			"aob": "55 8B EC 6A FF 68 A8 90 82 1 64",
 			"args": "int a1",
-			"mask": "........",
+			"mask": "...........",
 			"typedef": "int"
 		},
 		"luavm_load": {
-			"addr": 7176880,
+			"addr": 7189008,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 6A FF 68 D0 E2 D2 1 64",
+			"aob": "55 8B EC 6A FF 68 90 F0 80 1 64",
 			"args": "int a1, int a2, int a3",
 			"mask": "...........",
 			"typedef": "int"
 		},
 		"luax_init": {
-			"addr": 20633536,
+			"addr": 22193328,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2153,7 +2143,7 @@
 			"typedef": "int"
 		},
 		"luaz_openspace": {
-			"addr": 20647984,
+			"addr": 22207760,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2163,7 +2153,7 @@
 			"typedef": "int"
 		},
 		"mainposition": {
-			"addr": 20627152,
+			"addr": 22186880,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2173,17 +2163,17 @@
 			"typedef": "int"
 		},
 		"markmt": {
-			"addr": 20619040,
+			"addr": 22178608,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 53 56 57 8B 7D 8 BB",
+			"aob": "55 8B EC 51 53 56 57 8B 7D 8 BB",
 			"args": "int a1",
-			"mask": "..........",
+			"mask": "...........",
 			"typedef": "int"
 		},
 		"markroot": {
-			"addr": 20619264,
+			"addr": 22178848,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2193,7 +2183,7 @@
 			"typedef": "int"
 		},
 		"match": {
-			"addr": 20603856,
+			"addr": 22162480,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2203,7 +2193,7 @@
 			"typedef": "int"
 		},
 		"newkey": {
-			"addr": 20627472,
+			"addr": 22187184,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2213,27 +2203,27 @@
 			"typedef": "int"
 		},
 		"newlstr": {
-			"addr": 20624304,
-			"ccv": "__fastcall",
+			"addr": 22184064,
+			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 83 EC 14 53 56 8B 75 8 8B",
+			"aob": "55 8B EC 83 EC 14 53 56 8B 75 10 57 8D 46 1 3D",
 			"args": "std::uintptr_t a1, int a2, int a3, int a4",
-			"mask": "............",
+			"mask": "................",
 			"typedef": "int"
 		},
 		"print": {
-			"addr": 6729360,
+			"addr": 6740656,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 6A FF 68 78 62 D1 1 64",
+			"aob": "55 8B EC 6A FF 68 D8 6F 7F 1 64",
 			"args": "int a1, int a2, int a3",
 			"mask": "...........",
 			"typedef": "int"
 		},
 		"push_captures": {
-			"addr": 20606304,
+			"addr": 22164928,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2242,8 +2232,18 @@
 			"mask": ".........",
 			"typedef": "int"
 		},
+		"push_instance": {
+			"addr": 8804896,
+			"ccv": "__cdecl",
+			"retcheck": false,
+			"isapartoflua": false,
+			"aob": "55 8B EC 64 A1 0 0 0 0 6A",
+			"args": "int a1, int a2",
+			"mask": "..........",
+			"typedef": "int"
+		},
 		"rbx_get_property": {
-			"addr": 8779952,
+			"addr": 8796608,
 			"ccv": "__thiscall",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2253,137 +2253,137 @@
 			"typedef": "int"
 		},
 		"rbx_network_replicator_onreceive": {
-			"addr": 18320240,
+			"addr": 19854608,
 			"ccv": "__fastcall",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 6A FF 68 53 16 DE 1 64",
+			"aob": "55 8B EC 6A FF 68 93 0 8D",
 			"args": "int a1, int a2, int a3",
-			"mask": "...........",
+			"mask": ".........",
 			"typedef": "int"
 		},
 		"rbx_network_physicssenders2_sendpacket": {
-			"addr": 19111360,
+			"addr": 20644464,
 			"ccv": "__thiscall",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 6A FF 68 70 AE DE 1 64",
+			"aob": "55 8B EC 6A FF 68 20 99 8D 1 64",
 			"args": "int a1, int a2, int a3",
 			"mask": "...........",
 			"typedef": "int"
 		},
 		"rbx_disable_report_screenshot_gl2": {
-			"addr": 27183808,
-			"ccv": "__stdcall",
-			"retcheck": false,
-			"isapartoflua": false,
-			"aob": "6A 1 68 8 9 78",
-			"args": "",
-			"mask": "......",
-			"typedef": "int"
-		},
-		"rbx_disable_report_screenshot_gl": {
-			"addr": 27183776,
-			"ccv": "__stdcall",
-			"retcheck": false,
-			"isapartoflua": false,
-			"aob": "6A 1 68 0 9 78",
-			"args": "",
-			"mask": "......",
-			"typedef": "int"
-		},
-		"rbx_disable_report_screenshot_metal": {
-			"addr": 27183840,
-			"ccv": "__stdcall",
-			"retcheck": false,
-			"isapartoflua": false,
-			"aob": "6A 1 68 10 9 78",
-			"args": "",
-			"mask": "......",
-			"typedef": "int"
-		},
-		"rbx_disable_report_screenshot_vulkan": {
-			"addr": 27183872,
-			"ccv": "__stdcall",
-			"retcheck": false,
-			"isapartoflua": false,
-			"aob": "6A 1 68 18",
-			"args": "",
-			"mask": "....",
-			"typedef": "int"
-		},
-		"rbx_disable_report_screenshot_d3d": {
-			"addr": 27183744,
-			"ccv": "__stdcall",
-			"retcheck": false,
-			"isapartoflua": false,
-			"aob": "6A 1 68 F8",
-			"args": "",
-			"mask": "....",
-			"typedef": "int"
-		},
-		"rbx_setsimulationradius": {
-			"addr": 19114384,
-			"ccv": "__stdcall",
-			"retcheck": false,
-			"isapartoflua": false,
-			"aob": "55 8B EC 83 E4 F8 51 56 8B 75 8 85",
-			"args": "int a1, int a2",
-			"mask": "............",
-			"typedef": "int"
-		},
-		"rbx_corescript_getluavmcorescriptfilepath": {
-			"addr": 11346048,
+			"addr": 18113280,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 6A FF 68 9E E9 D7 1 64",
+			"aob": "6A 1 68 C4",
+			"args": "",
+			"mask": "....",
+			"typedef": "int"
+		},
+		"rbx_disable_report_screenshot_gl": {
+			"addr": 18113248,
+			"ccv": "__cdecl",
+			"retcheck": false,
+			"isapartoflua": false,
+			"aob": "6A 1 68 BC",
+			"args": "",
+			"mask": "....",
+			"typedef": "int"
+		},
+		"rbx_disable_report_screenshot_metal": {
+			"addr": 18113316,
+			"ccv": "__cdecl",
+			"retcheck": false,
+			"isapartoflua": false,
+			"aob": "A7 25 2 68",
+			"args": "",
+			"mask": "....",
+			"typedef": "int"
+		},
+		"rbx_disable_report_screenshot_vulkan": {
+			"addr": 18113344,
+			"ccv": "__cdecl",
+			"retcheck": false,
+			"isapartoflua": false,
+			"aob": "6A 1 68 D4 A7",
+			"args": "",
+			"mask": ".....",
+			"typedef": "int"
+		},
+		"rbx_disable_report_screenshot_d3d": {
+			"addr": 18113216,
+			"ccv": "__cdecl",
+			"retcheck": false,
+			"isapartoflua": false,
+			"aob": "6A 1 68 B4 A7",
+			"args": "",
+			"mask": ".....",
+			"typedef": "int"
+		},
+		"rbx_setsimulationradius": {
+			"addr": 20647648,
+			"ccv": "__thiscall",
+			"retcheck": false,
+			"isapartoflua": false,
+			"aob": "55 8B EC 83 EC 10 56 57 8B F9 8B 4D 8 89",
+			"args": "int a1, int a2",
+			"mask": "..............",
+			"typedef": "int"
+		},
+		"rbx_corescript_getluavmcorescriptfilepath": {
+			"addr": 11379328,
+			"ccv": "__cdecl",
+			"retcheck": false,
+			"isapartoflua": false,
+			"aob": "55 8B EC 6A FF 68 8E FB 85 1 64",
 			"args": "int a1, int a2, const char* a3",
 			"mask": "...........",
 			"typedef": "int"
 		},
 		"rbx_datastore_runtransformfunction": {
-			"addr": 14454656,
+			"addr": 14506576,
 			"ccv": "__stdcall",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 6A FF 68 90 72 DB 1 64",
+			"aob": "55 8B EC 6A FF 68 80 85 89 1 64",
 			"args": "",
 			"mask": "...........",
 			"typedef": "int"
 		},
 		"rbx_datamodel_dodatamodelsetup": {
-			"addr": 7313680,
+			"addr": 7330096,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 6A FF 68 D9 1E D3 1 64",
+			"aob": "55 8B EC 6A FF 68 99 2E 81 1 64",
 			"args": "int a1, int a2, int a3, int a4, int a5",
 			"mask": "...........",
 			"typedef": "int"
 		},
 		"rbx_debugvalueconverte_userdatatostring": {
-			"addr": 12715328,
+			"addr": 12753776,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 6A FF 68 0 20 D9 1 64",
+			"aob": "55 8B EC 6A FF 68 50 31 87 1 64",
 			"args": "int a1, int a2, int a3",
 			"mask": "...........",
 			"typedef": "int"
 		},
 		"rbx_deu_uploadcrasheventfile": {
-			"addr": 6469680,
+			"addr": 6481936,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 6A FF 68 A5 10 D2 1 64",
+			"aob": "55 8B EC 6A FF 68 F5 1D 80 1 64",
 			"args": "int a1",
 			"mask": "...........",
 			"typedef": "int"
 		},
 		"rbx_lm_reporterror": {
-			"addr": 6488608,
+			"addr": 6500576,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2393,57 +2393,57 @@
 			"typedef": "int"
 		},
 		"rbx_lua_dumpthreadrefcounts": {
-			"addr": 8606640,
+			"addr": 8621664,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 51 80 3D BC E0 75 2 0 74",
+			"aob": "55 8B EC 51 80 3D F4 60 24 2 0 74",
 			"args": "",
 			"mask": "............",
 			"typedef": "int"
 		},
 		"rbx_network_replicator_processdeserializedpacket": {
-			"addr": 18336752,
+			"addr": 19870624,
 			"ccv": "__thiscall",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 6A FF 68 EB 19 DE 1 64",
+			"aob": "55 8B EC 6A FF 68 B 4 8D 1 64",
 			"args": "int a1, int a2",
 			"mask": "...........",
 			"typedef": "int"
 		},
 		"rbx_network_server_registerlegalscript": {
-			"addr": 18511840,
+			"addr": 20044848,
 			"ccv": "__thiscall",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 6A FF 68 40 42 DE 1 64",
+			"aob": "55 8B EC 6A FF 68 90 2C 8D 1 64",
 			"args": "int a1, int a2",
 			"mask": "...........",
 			"typedef": "int"
 		},
 		"rbx_rcr_processexception": {
-			"addr": 6488272,
+			"addr": 6500240,
 			"ccv": "__stdcall",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 53 56 68 E8 C8 15 2 6A",
+			"aob": "55 8B EC 53 56 68 E0 FA C3 1 6A",
 			"args": "",
 			"mask": "...........",
 			"typedef": "int"
 		},
 		"rbx_sc_closestate": {
-			"addr": 7952608,
+			"addr": 7965712,
 			"ccv": "__stdcall",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 6A FF 68 20 EF D3 1 64",
+			"aob": "55 8B EC 6A FF 68 30 FC 81 1 64",
 			"args": "int a1",
 			"mask": "...........",
 			"typedef": "int"
 		},
 		"rbx_taskscheduler_getlastcycletimestamp": {
-			"addr": 16786592,
+			"addr": 16854256,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2453,7 +2453,7 @@
 			"typedef": "int"
 		},
 		"rbx_lua_bridge_on_index": {
-			"addr": 8786976,
+			"addr": 8803616,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2463,27 +2463,27 @@
 			"typedef": "int"
 		},
 		"rbx_security_context_current": {
-			"addr": 20520976,
-			"ccv": "__thiscall",
+			"addr": 6831344,
+			"ccv": "__stdcall",
 			"retcheck": false,
-			"isapartoflua": true,
-			"aob": "8B D D8 83 B4",
+			"isapartoflua": false,
+			"aob": "55 8B EC 51 8B 41 C 56",
 			"args": "int a1",
-			"mask": ".....",
+			"mask": "........",
 			"typedef": "int"
 		},
 		"rbx_datamodel_getjobsinfo": {
-			"addr": 7328128,
+			"addr": 7345040,
 			"ccv": "__thiscall",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 6A FF 68 2E 22 D3 1 64",
+			"aob": "55 8B EC 6A FF 68 4E 32 81 1 64",
 			"args": "int a1, int a2",
 			"mask": "...........",
 			"typedef": "int"
 		},
 		"rbx_sc_crash": {
-			"addr": 7955392,
+			"addr": 7968416,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2493,7 +2493,7 @@
 			"typedef": "int"
 		},
 		"rbx_sc_interrupt": {
-			"addr": 7977008,
+			"addr": 7989968,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2503,7 +2503,7 @@
 			"typedef": "int"
 		},
 		"rbx_sc_loadstring": {
-			"addr": 7979296,
+			"addr": 7992256,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2513,27 +2513,27 @@
 			"typedef": "int"
 		},
 		"rbx_sc_scriptcontext": {
-			"addr": 7924784,
+			"addr": 7938784,
 			"ccv": "__thiscall",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 6A FF 68 F1 E7 D3 1 64",
+			"aob": "55 8B EC 6A FF 68 19 F5 81 1 64",
 			"args": "int a1",
 			"mask": "...........",
 			"typedef": "int"
 		},
 		"rbx_sc_startscript": {
-			"addr": 8026960,
-			"ccv": "__cdecl",
+			"addr": 8039152,
+			"ccv": "__stdcall",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 6A FF 68 8F 3 D4",
+			"aob": "55 8B EC 6A FF 68 4F 10 82 1 64",
 			"args": "",
-			"mask": ".........",
+			"mask": "...........",
 			"typedef": "int"
 		},
 		"rbx_sc_watchdog": {
-			"addr": 8034208,
+			"addr": 8046400,
 			"ccv": "__thiscall",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2543,7 +2543,7 @@
 			"typedef": "int"
 		},
 		"rbx_scriptcontext_getcontext": {
-			"addr": 7970400,
+			"addr": 7983328,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2553,7 +2553,7 @@
 			"typedef": "int"
 		},
 		"rbx_scriptcontext_debuggermanager": {
-			"addr": 7957376,
+			"addr": 7970384,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2563,7 +2563,7 @@
 			"typedef": "int"
 		},
 		"rbx_scriptcontext_pluginmanager": {
-			"addr": 7991632,
+			"addr": 8004416,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2573,7 +2573,7 @@
 			"typedef": "int"
 		},
 		"rbx_scriptcontext_usersettings": {
-			"addr": 8033056,
+			"addr": 8045248,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2583,7 +2583,7 @@
 			"typedef": "int"
 		},
 		"rbx_scriptcontext_settings": {
-			"addr": 8023696,
+			"addr": 8035888,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2593,7 +2593,7 @@
 			"typedef": "int"
 		},
 		"rbx_scriptcontext_getglobalstate": {
-			"addr": 7971024,
+			"addr": 7983952,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2603,7 +2603,7 @@
 			"typedef": "int"
 		},
 		"rbx_modulescript_vmstate": {
-			"addr": 12784480,
+			"addr": 12824128,
 			"ccv": "__stdcall",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2613,17 +2613,17 @@
 			"typedef": "int"
 		},
 		"rbx_modulescript_pervmstate_setcompletedsuccess": {
-			"addr": 12783664,
+			"addr": 12823328,
 			"ccv": "__thiscall",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 83 79 14 0 C7",
+			"aob": "55 8B EC 83 79 C 0 C7",
 			"args": "int a1, int a2, int a3",
 			"mask": "........",
 			"typedef": "int"
 		},
 		"rbx_modulescript_pervmstate_getandclearyieldedimporters": {
-			"addr": 12782992,
+			"addr": 12822656,
 			"ccv": "__thiscall",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2633,17 +2633,17 @@
 			"typedef": "int"
 		},
 		"rbx_scriptcontext_requiremodulescriptsuccesscontinuation": {
-			"addr": 8014448,
+			"addr": 8026592,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 6A FF 68 40 FF D3 1 64",
+			"aob": "55 8B EC 6A FF 68 0 C 82 1 64",
 			"args": "int a1, int a2, int a3",
 			"mask": "...........",
 			"typedef": "int"
 		},
 		"rbx_setthreadname": {
-			"addr": 16785040,
+			"addr": 16852704,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2653,7 +2653,7 @@
 			"typedef": "int"
 		},
 		"rbx_serializer_loadinstances": {
-			"addr": 8856640,
+			"addr": 8873280,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2663,7 +2663,7 @@
 			"typedef": "int"
 		},
 		"rbx_scriptcontext_printcallstack": {
-			"addr": 7992432,
+			"addr": 8005024,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2673,7 +2673,7 @@
 			"typedef": "int"
 		},
 		"rbx_serializer_loadinstances_long": {
-			"addr": 8856672,
+			"addr": 8873312,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2683,7 +2683,7 @@
 			"typedef": "int"
 		},
 		"rbx_standardout_printwithlink": {
-			"addr": 6728560,
+			"addr": 6739856,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2693,37 +2693,37 @@
 			"typedef": "int"
 		},
 		"rbx_ts_startscript": {
-			"addr": 11649168,
+			"addr": 11682736,
 			"ccv": "__thiscall",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 6A FF 68 56 59 D8 1 64",
+			"aob": "55 8B EC 6A FF 68 26 6A 86 1 64",
 			"args": "int a1, int a2",
 			"mask": "...........",
 			"typedef": "int"
 		},
 		"rbx_ws_getrealphysicsfps": {
-			"addr": 9590336,
+			"addr": 9610064,
 			"ccv": "__thiscall",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 6A FF 68 90 BD D5 1 64",
+			"aob": "55 8B EC 6A FF 68 B0 CB 83 1 64",
 			"args": "int a1",
 			"mask": "...........",
 			"typedef": "int"
 		},
 		"rbxcrash": {
-			"addr": 22689200,
+			"addr": 24281728,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 51 A1 64 55 B4 2 56",
+			"aob": "55 8B EC 51 A1 AC F3 64 2 56",
 			"args": "int a1, int a2",
 			"mask": "..........",
 			"typedef": "int"
 		},
 		"reallymarkobject": {
-			"addr": 20620144,
+			"addr": 22180144,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2733,7 +2733,7 @@
 			"typedef": "int"
 		},
 		"rehash": {
-			"addr": 20627904,
+			"addr": 22187616,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2743,7 +2743,7 @@
 			"typedef": "int"
 		},
 		"reportError": {
-			"addr": 7975264,
+			"addr": 7988176,
 			"ccv": "__stdcall",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2753,17 +2753,17 @@
 			"typedef": "int"
 		},
 		"resize": {
-			"addr": 20628528,
+			"addr": 22188256,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 83 EC 2C 56 8B 75 8 57",
+			"aob": "55 8B EC 83 EC 38 56 8B 75 C 8B",
 			"args": "std::uintptr_t a1, int a2, int a3, int a4",
 			"mask": "...........",
 			"typedef": "int"
 		},
 		"resume": {
-			"addr": 20542256,
+			"addr": 22101120,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2773,7 +2773,7 @@
 			"typedef": "int"
 		},
 		"resume_error": {
-			"addr": 20542480,
+			"addr": 22101344,
 			"ccv": "__cdecl",
 			"retcheck": true,
 			"isapartoflua": true,
@@ -2783,7 +2783,7 @@
 			"typedef": "int"
 		},
 		"retcheck": {
-			"addr": 7177904,
+			"addr": 7190048,
 			"ccv": "__fastcall",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2793,7 +2793,7 @@
 			"typedef": "int"
 		},
 		"robloxextraspace__robloxextraspace": {
-			"addr": 7941360,
+			"addr": 7954192,
 			"ccv": "__thiscall",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2803,17 +2803,17 @@
 			"typedef": "int"
 		},
 		"sandboxthread": {
-			"addr": 8023248,
+			"addr": 8035440,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 80 3D 60 D5 75 2 0 56",
+			"aob": "55 8B EC 80 3D 64 55 24 2 0 56",
 			"args": "int a1, int a2, int a3",
 			"mask": "...........",
 			"typedef": "int"
 		},
 		"setarrayvector": {
-			"addr": 20629008,
+			"addr": 22188768,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2823,17 +2823,17 @@
 			"typedef": "int"
 		},
 		"setnodevector": {
-			"addr": 20629136,
+			"addr": 22188896,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 53 56 8B 75 10 57 85 F6 75 13 8B 4D C B8",
+			"aob": "55 8B EC 53 56 8B 75 10 57 85 F6 75 10 8B 7D C 33",
 			"args": "std::uintptr_t a1, int a2, int a3",
 			"mask": ".................",
 			"typedef": "int"
 		},
 		"singlestep": {
-			"addr": 20620560,
+			"addr": 22180560,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2843,17 +2843,17 @@
 			"typedef": "int"
 		},
 		"spawn": {
-			"addr": 8024160,
+			"addr": 8036352,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 6A FF 68 9F 1 D4",
+			"aob": "55 8B EC 6A FF 68 5F E 82",
 			"args": "int a1",
 			"mask": ".........",
 			"typedef": "int"
 		},
 		"stack_init": {
-			"addr": 20582304,
+			"addr": 22141184,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2863,7 +2863,7 @@
 			"typedef": "int"
 		},
 		"str_find_aux": {
-			"addr": 20606736,
+			"addr": 22165360,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2873,7 +2873,7 @@
 			"typedef": "int"
 		},
 		"tag_error": {
-			"addr": 20539728,
+			"addr": 22098560,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2883,7 +2883,7 @@
 			"typedef": "int"
 		},
 		"trustCheck": {
-			"addr": 22138144,
+			"addr": 23730720,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
@@ -2893,27 +2893,27 @@
 			"typedef": "int"
 		},
 		"taskscheduler": {
-			"addr": 16787136,
+			"addr": 16854800,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": false,
-			"aob": "55 8B EC 6A FF 68 DE 6A DD 1 64",
+			"aob": "55 8B EC 6A FF 68 DE 80 8B 1 64",
 			"args": "",
 			"mask": "...........",
 			"typedef": "int"
 		},
 		"unbound_search": {
-			"addr": 20629344,
+			"addr": 22189088,
 			"ccv": "__cdecl",
 			"retcheck": false,
 			"isapartoflua": true,
-			"aob": "55 8B EC 83 EC 8 8B",
+			"aob": "55 8B EC 83 EC 8 F 28 1D",
 			"args": "std::uintptr_t a1, int a2",
-			"mask": ".......",
+			"mask": ".........",
 			"typedef": "int"
 		},
 		"vm_invoker": {
-			"addr": 20576864,
+			"addr": 22135744,
 			"ccv": "__thiscall",
 			"retcheck": false,
 			"isapartoflua": true,
@@ -2923,154 +2923,100 @@
 			"typedef": "int"
 		},
 		"cum_check_bypass": {
-			"addr": 22140956
+			"addr": 23726149
 		},
 		"callcheck": {
-			"addr": 6250080
+			"addr": 6261648
 		},
 		"retcheckflag1": {
-			"addr": 43848012
+			"addr": 44024140
 		},
 		"retcheckflag2": {
-			"addr": 43848252
+			"addr": 44024380
 		},
 		"xorconst": {
-			"addr": 43221616
+			"addr": 43524256
 		},
 		"luao_nilobject": {
-			"addr": 35306896
+			"addr": 35616912
 		},
 		"luat_typenames": {
-			"addr": 35312888
+			"addr": 35623040
 		},
 		"kname": {
-			"addr": 40937896
+			"addr": 41109928
 		},
 		"op_index": {
-			"addr": 20559268
+			"addr": 22118120
 		},
 		"op_case_table": {
-			"addr": 20558964
+			"addr": 22117816
 		},
 		"retcheck_jmp": {
-			"addr": 7177936
+			"addr": 7190080
 		},
 		"trustcheck_bypass1": {
-			"addr": 39692028
+			"addr": 39860648
 		},
 		"scriptinstance": {
-			"addr": 41564804
+			"addr": 41739356
 		},
 		"scriptcontext": {
-			"addr": 33419076
+			"addr": 33563292
 		}
 	},
 	"offsets": {
-		"getnamecallmethod_offset": 100,
-		"networked_dm": 1184,
+		"getnamecallmethod_offset": 104,
+		"networked_dm": 1192,
 		"Identity1": 24,
-		"Identity2": 108,
-		"ls_top": 20,
-		"ls_base": 28,
-		"ls_offset": 188,
-		"ls_symbol": "-",
-		"ls_syntax": 1,
-		"gs_symbol": "-",
-		"gs_offset": 8,
-		"setiden_syntax": 0,
-		"protoobf_symbol": "+",
-		"protodeobf_symbol": "-",
-		"ls_readonly": 6,
-		"ls_base_ci": 36,
-		"ls_ci": 16,
+		"Identity2": 112,
+		"ls_readonly": 10,
+		"ls_base_ci": 44,
+		"ls_ci": 28,
 		"ls_saved_pc": 16,
+		"ls_top": 16,
+		"ls_base": 20,
+		"ls_gs_totalbytes": 72,
+		"ls_gs_rootgc": 36,
+		"ls_gs_mainthread": 264,
+		"ls_closure_isc": 6,
 		"R_LUA_TNONE": -1,
-		"R_LUA_TUSERDATA": 6,
-		"R_LUA_TFUNCTION": 7,
+		"R_LUA_TUSERDATA": 7,
+		"R_LUA_TFUNCTION": 9,
 		"R_LUA_TSTRING": 5,
 		"R_LUA_TBOOLEAN": 1,
-		"R_LUA_TNUMBER": 3,
+		"R_LUA_TNUMBER": 2,
 		"R_LUA_TTABLE": 8,
 		"R_LUA_TNIL": 0,
-		"R_LUA_TTHREAD": 9,
-		"R_LUA_TVECTOR": 2,
-		"R_LUA_TLIGHTUSERDATA": 4,
+		"R_LUA_TTHREAD": 6,
+		"R_LUA_TVECTOR": 4,
+		"R_LUA_TLIGHTUSERDATA": 3,
 		"R_LUA_TPROTO": 10,
 		"R_LUA_TUPVALUE": 11,
-		"protos": {
-			"proto_code": 20,
-			"proto_sizecode": 56,
-			"proto_p": 8,
-			"proto_sizep": 8,
-			"proto_k": 24,
-			"proto_sizek": 16,
-			"proto_lineinfo": 20,
-			"proto_sizelineinfo": 52,
-			"proto_locvars": 20,
-			"proto_sizelocvars": 68,
-			"proto_upvalues": 24,
-			"proto_sizeupvalues": 20,
-			"proto_is_vararg": 80,
-			"proto_source": 44,
-			"proto_nups": 82,
-			"proto_numparams": 81,
-			"proto_maxstacksize": 83
-		},
-		"luastate_offsets": {
-			"ls_readonly": 6,
-			"ls_base_ci": 36,
-			"ls_ci": 16,
-			"ls_saved_pc": 16
-		},
-		"globalstate_offsets": {
-			"ls_gs_totalbytes": 76,
-			"ls_gs_rootgc": 48,
-			"ls_gs_mainthread": 344
-		},
-		"closure_offsets": {
-			"ls_closure_isc": 6
-		},
-		"types": {
-			"R_LUA_TNONE": -1,
-			"R_LUA_TUSERDATA": 6,
-			"R_LUA_TFUNCTION": 7,
-			"R_LUA_TSTRING": 5,
-			"R_LUA_TBOOLEAN": 1,
-			"R_LUA_TNUMBER": 3,
-			"R_LUA_TTABLE": 8,
-			"R_LUA_TNIL": 0,
-			"R_LUA_TTHREAD": 9,
-			"R_LUA_TVECTOR": 2,
-			"R_LUA_TLIGHTUSERDATA": 4,
-			"R_LUA_TPROTO": 10,
-			"R_LUA_TUPVALUE": 11
-		},
-		"proto_code": 20,
-		"proto_sizecode": 56,
-		"proto_p": 8,
-		"proto_sizep": 8,
-		"proto_k": 24,
-		"proto_sizek": 16,
-		"proto_lineinfo": 20,
-		"proto_sizelineinfo": 52,
-		"proto_locvars": 20,
-		"proto_sizelocvars": 68,
-		"proto_upvalues": 24,
-		"proto_sizeupvalues": 20,
-		"proto_is_vararg": 80,
-		"proto_source": 44,
+		"proto_code": 32,
+		"proto_sizecode": 68,
+		"proto_p": 60,
+		"proto_sizep": 12,
+		"proto_k": 76,
+		"proto_sizek": 20,
+		"proto_lineinfo": 28,
+		"proto_sizelineinfo": 72,
+		"proto_locvars": 52,
+		"proto_upvalues": 44,
+		"proto_lineinfo_opt": 56,
+		"proto_is_vararg": 81,
+		"proto_source": 36,
 		"proto_nups": 82,
-		"proto_numparams": 81,
-		"proto_maxstacksize": 83
-	},
-	"extras": {
+		"proto_size_locvars": 16,
+		"proto_numparams": 83,
+		"proto_maxstacksize": 80,
 		"ls_offset": 188,
 		"ls_symbol": "-",
 		"ls_syntax": 1,
 		"gs_symbol": "-",
-		"gs_offset": 8,
+		"gs_offset": 24,
 		"setiden_syntax": 0,
-		"protoobf_symbol": "+",
-		"protodeobf_symbol": "-"
+		"protoobf_symbol": "^",
+		"protodeobf_symbol": "+"
 	}
 }
