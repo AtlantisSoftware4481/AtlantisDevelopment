@@ -54,4 +54,4 @@ client.on("ready", async function() {
     }
 });
 
-client.login(`ODI3MTA4MzcxMDkzMjU4MjYw.YGWOsg.IPJ1ZstimkGrtPnnweM7vgp3NmE`);
+client.login(process.env.token);
