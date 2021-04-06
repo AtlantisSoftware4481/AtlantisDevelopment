@@ -36,22 +36,26 @@ var rupdate = '';
 client.on("ready", async function() {
     rupdate = await getScript('https://setup.rbxcdn.com/version');
     console.log('Started: ' + rupdate)
-    client.channels.cache.get('806512218950729748').send("hey idots! i has been started on heroku dis time and will now ping lot for infinite time thank me later C:");
+    client.channels.cache.get('806512218950729748').send("ok everyone i been updated");
     
     while (true) {
         let nupdate = await getScript('https://setup.rbxcdn.com/version');
         if (nupdate !== rupdate) {
-            rupdate = nupdate;
-            content = new Discord.MessageEmbed()
-            .setAuthor("Update Notifier", client.user.avatarURL())
-            .setTitle('Roblox Updated!')
-            .setColor('#32CD32')
-            .setDescription(' *-* **Roblox Version** `' + nupdate + '`\n *-* **Address List** *Coming Soon!*\n\n **Update Notifier** Created by Nexus42.');
-            client.channels.cache.get('827149240928043018').send(content);
-            client.channels.cache.get('827149240928043018').send("@here");
-            console.log('Updated to ' + nupdate);
+            if (nupdate.length > 50) {
+                console.log(nupdate);
+            } else {
+                rupdate = nupdate;
+                content = new Discord.MessageEmbed()
+                .setAuthor("Update Notifier", client.user.avatarURL())
+                .setTitle('Roblox Updated!')
+                .setColor('#32CD32')
+                .setDescription(' *-* **Roblox Version** `' + nupdate + '`\n *-* **Address List** *Coming Soon!*\n\n **Update Notifier** Created by Nexus42.');
+                client.channels.cache.get('827149240928043018').send(content);
+                client.channels.cache.get('827149240928043018').send("@here");
+                console.log('Updated to ' + nupdate);
+            }
         }
     }
 });
 
-client.login(process.env.token);
+client.login(process.env.TOKEN);
