@@ -36,7 +36,7 @@ var rupdate = '';
 client.on("ready", async function() {
     rupdate = await getScript('https://setup.rbxcdn.com/version');
     console.log('Started: ' + rupdate)
-    client.channels.cache.get('806512218950729748').send("ok everyone i been updated");
+    client.channels.cache.get('837761081170460730').send("hello peoples i has been updated bcz nexus didnt realise he turned me off ;-;");
     
     while (true) {
         let nupdate = await getScript('https://setup.rbxcdn.com/version');
@@ -49,9 +49,9 @@ client.on("ready", async function() {
                 .setAuthor("Update Notifier", client.user.avatarURL())
                 .setTitle('Roblox Updated!')
                 .setColor('#32CD32')
-                .setDescription(' *-* **Roblox Version** `' + nupdate + '`\n *-* **Address List** *Coming Soon!*\n\n **Update Notifier** Created by Nexus42.');
-                client.channels.cache.get('827149240928043018').send(content);
-                client.channels.cache.get('827149240928043018').send("@here");
+                .setDescription(' *-* **Roblox Version** `' + nupdate + '`\n *-* **Update Notifier** Created by Nexus42.');
+                client.channels.cache.get('852823529824583681').send(content);
+                client.channels.cache.get('852823529824583681').send("@here");
                 console.log('Updated to ' + nupdate);
             }
         }
