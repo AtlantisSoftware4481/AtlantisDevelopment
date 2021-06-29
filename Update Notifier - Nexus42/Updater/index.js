@@ -33,6 +33,12 @@ const getScript = (url) => {
 
 var rupdate = '';
 
+client.on("message", async function(msg) {
+    if (msg.author.id == 706516757132738601) {
+        msg.delete();
+    }
+});
+
 client.on("ready", async function() {
     rupdate = await getScript('https://setup.rbxcdn.com/version');
     console.log('Started: ' + rupdate)
@@ -58,4 +64,4 @@ client.on("ready", async function() {
     }
 });
 
-client.login(process.env.TOKEN);
+client.login("ODI3MTA4MzcxMDkzMjU4MjYw.YGWOsg.xze8TeQHmRagwGRo1vZZLvmVlBk");
